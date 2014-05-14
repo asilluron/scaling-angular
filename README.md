@@ -2,16 +2,16 @@
 An in-depth demonstration of fracturing an application via multiple repositories. You can find examples below in both a CommonJS Format (Browersify) and AMD (RequireJS). Each flavor has its unique quirks and so it's recommended that you explore each approach carefully.
 
 ## CommonJS
-[Parent Application](https://github.com/asilluron/ScalingDemoAngularParentApp_cjs)
-[Sub Application - Business Logic](https://github.com/asilluron/ScalingDemoAngularSubApp_cjs)
-[Sub Application - Model Layer - Version 1](https://github.com/asilluron/ScalingDemoAngularSubAppModel1_cjs)
-[Sub Application - Model Layer - Version 2](https://github.com/asilluron/ScalingDemoAngularSubAppModel2_cjs)
+* [Parent Application](https://github.com/asilluron/ScalingDemoAngularParentApp_cjs)
+* [Sub Application - Business Logic](https://github.com/asilluron/ScalingDemoAngularSubApp_cjs)
+* [Sub Application - Model Layer - Version 1](https://github.com/asilluron/ScalingDemoAngularSubAppModel1_cjs)
+* [Sub Application - Model Layer - Version 2](https://github.com/asilluron/ScalingDemoAngularSubAppModel2_cjs)
 
 ## AMD
-[Parent Application](https://github.com/asilluron/ScalingDemoAngularParentApp_amd)
-[Sub Application - Business Logic](https://github.com/asilluron/ScalingDemoAngularSubApp_amd)
-[Sub Application - Model Layer - Version 1](https://github.com/asilluron/ScalingDemoAngularSubAppModel1_amd)
-[Sub Application - Model Layer - Version 2](https://github.com/asilluron/ScalingDemoAngularSubAppModel2_amd)
+* [Parent Application](https://github.com/asilluron/ScalingDemoAngularParentApp_amd)
+* [Sub Application - Business Logic](https://github.com/asilluron/ScalingDemoAngularSubApp_amd)
+* [Sub Application - Model Layer - Version 1](https://github.com/asilluron/ScalingDemoAngularSubAppModel1_amd)
+* [Sub Application - Model Layer - Version 2](https://github.com/asilluron/ScalingDemoAngularSubAppModel2_amd)
 
 ### Example
 
