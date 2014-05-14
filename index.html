@@ -31,17 +31,46 @@
           <h1>
 <a name="scaling-angular" class="anchor" href="#scaling-angular"><span class="octicon octicon-link"></span></a>Scaling Angular</h1>
 
-<p>An in-depth demonstration of fracturing an application via multiple repositories. You can find example below in both the CommonJS Format (Browersify) and AMD (RequireJS). Each flavor has its uniquery quirks, so it's recommended that you explore each approach carefully.</p>
+<p>An in-depth demonstration of fracturing an application via multiple repositories. You can find examples below in both a CommonJS Format (Browersify) and AMD (RequireJS). Each flavor has its unique quirks and so it's recommended that you explore each approach carefully.</p>
 
 <h2>
 <a name="commonjs" class="anchor" href="#commonjs"><span class="octicon octicon-link"></span></a>CommonJS</h2>
 
-<p><a href="https://github.com/asilluron/ScalingDemoAngularParentApp_cjs">Parent Application</a></p>
-
-<h2>
+<ul>
+<li><a href="https://github.com/asilluron/ScalingDemoAngularParentApp_cjs">Parent Application</a></li>
+<li><a href="https://github.com/asilluron/ScalingDemoAngularSubApp_cjs">Sub Application - Business Logic</a></li>
+<li><a href="https://github.com/asilluron/ScalingDemoAngularSubAppModel1_cjs">Sub Application - Model Layer - Version 1</a></li>
+<li><a href="https://github.com/asilluron/ScalingDemoAngularSubAppModel2_cjs">Sub Application - Model Layer - Version 2</a></li>
+</ul><h2>
 <a name="amd" class="anchor" href="#amd"><span class="octicon octicon-link"></span></a>AMD</h2>
 
-<p><a href="https://github.com/asilluron/ScalingDemoAngularParentApp_amd">Parent Application</a></p>
+<ul>
+<li><a href="https://github.com/asilluron/ScalingDemoAngularParentApp_amd">Parent Application</a></li>
+<li><a href="https://github.com/asilluron/ScalingDemoAngularSubApp_amd">Sub Application - Business Logic</a></li>
+<li><a href="https://github.com/asilluron/ScalingDemoAngularSubAppModel1_amd">Sub Application - Model Layer - Version 1</a></li>
+<li><a href="https://github.com/asilluron/ScalingDemoAngularSubAppModel2_amd">Sub Application - Model Layer - Version 2</a></li>
+</ul><h3>
+<a name="example" class="anchor" href="#example"><span class="octicon octicon-link"></span></a>Example</h3>
+
+<h4>
+<a name="boot-up-the-parent-application---amd-version" class="anchor" href="#boot-up-the-parent-application---amd-version"><span class="octicon octicon-link"></span></a>Boot Up the Parent Application - AMD Version</h4>
+
+<pre><code>git clone https://github.com/asilluron/ScalingDemoAngularParentApp_amd.git
+cd ScalingDemoAngularParentApp_amd
+npm install
+grunt local
+</code></pre>
+
+<h4>
+<a name="boot-up-the-parent-application---amd-version-1" class="anchor" href="#boot-up-the-parent-application---amd-version-1"><span class="octicon octicon-link"></span></a>Boot Up the Parent Application - AMD Version</h4>
+
+<pre><code>git clone https://github.com/asilluron/ScalingDemoAngularParentApp_cjs.git
+cd ScalingDemoAngularParentApp_cjs
+npm install
+gulp deploy
+</code></pre>
+
+<p>Then, open the index.html file inside of the <code>examples</code> folder</p>
         </section>
 
         <aside id="sidebar">
