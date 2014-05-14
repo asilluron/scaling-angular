@@ -13,9 +13,9 @@ An in-depth demonstration of fracturing an application via multiple repositories
 * [Sub Application - Model Layer - Version 1](https://github.com/asilluron/ScalingDemoAngularSubAppModel1_amd)
 * [Sub Application - Model Layer - Version 2](https://github.com/asilluron/ScalingDemoAngularSubAppModel2_amd)
 
-### Example
+## Examples
 
-#### Boot Up the Parent Application - AMD Version
+### Boot Up the Parent Application - AMD Version
 
 ```
 git clone https://github.com/asilluron/ScalingDemoAngularParentApp_amd.git
@@ -24,13 +24,34 @@ npm install
 grunt local
 ```
 
-#### Boot Up the Parent Application - AMD Version
+### Boot Up the Parent Application - AMD Version
 
 ```
 git clone https://github.com/asilluron/ScalingDemoAngularParentApp_cjs.git
 cd ScalingDemoAngularParentApp_cjs
 npm install
+gulp
 gulp deploy
 ```
 
 Then, open the index.html file inside of the `examples` folder
+
+### Edit and re-export a sub application - CJS
+```
+karma start
+```
+* CJS Sub apps automatically rebuild (browserify virtual bundle) while running karma.
+```
+gulp deploy
+```
+If your repos are npm linked, you will instantly see the change in the parent application
+
+
+### Edit and re-export a sub application - AMD
+```
+grunt local
+```
+
+```
+grunt deploy
+```
